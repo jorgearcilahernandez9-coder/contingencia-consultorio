@@ -1,0 +1,22 @@
+PROYECTO: CONSULTORIO ODONTOLOGICO - PROGRAMACION II
+
+ARCHIVOS
+- main.py: menu principal del programa.
+- paciente.py: clase que guarda los datos de cada paciente.
+- consultorio.py: registro, busqueda, ordenamiento, estadisticas, pila y cola.
+- pila.py: estructura de datos Pila (apilar y desapilar).
+- cola.py: estructura de datos Cola (encolar y desencolar).
+
+COMO EJECUTAR
+1. Tener Python 3 instalado.
+2. Guardar todos los archivos en la misma carpeta.
+3. Abrir una terminal en esa carpeta.
+4. Ejecutar: python main.py
+
+NUEVAS OPCIONES
+Opcion 6: muestra el informe de pacientes cuya atencion es Extraccion y su prioridad es Urgente. Los organiza por fecha de cita, de la mas cercana a la mas lejana, usando una pila. El informe utiliza una pila auxiliar para mostrar los datos sin eliminar definitivamente los pacientes de la pila principal.
+Opcion 7: solicita una fecha y atiende los pacientes agendados para ese dia usando una cola. Se atienden en el orden en que fueron registrados para esa fecha, porque el programa no maneja una hora para cada cita.
+
+NOTA
+La fecha debe ingresarse en formato dd/mm/aaaa, por ejemplo 25/10/2026.
+Los datos se mantienen en memoria mientras el programa esta abierto; al cerrar el programa no se guardan en un archivo.
